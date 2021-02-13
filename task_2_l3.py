@@ -1,14 +1,4 @@
-"""
-Во втором массиве сохранить индексы четных элементов первого массива.
+import sys
 
-"""
-
-n = int(input('Input amount number: '))
-a = [int(input('Input int number: ')) for i in range(n)]
-b = []
-
-for i in range(len(a)):
-	if a[i] % 2 == 0:
-		b += [i]		
-
-print(b)
+for i in [74, 33, 82, 7, 69, 88, 51, 50, 66]:
+	print(sys.getsizeof(i))
